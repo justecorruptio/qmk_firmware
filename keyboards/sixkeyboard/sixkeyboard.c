@@ -4,9 +4,9 @@ void matrix_init_kb(void) {
     // put your keyboard start-up code here
     // runs once when the firmware starts up
 
+    /*
     DDRC |= (1<<4);
     PORTC &= ~(1<<4);
-
 
     DDRC |= (1<<6);
     PORTC &= ~(1<<6);
@@ -25,6 +25,7 @@ void matrix_init_kb(void) {
 
     DDRD |= (1<<3);
     PORTD &= ~(1<<3);
+    */
 
     matrix_init_user();
 };
