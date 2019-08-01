@@ -134,14 +134,14 @@ uint32_t layer_state_set_kb(uint32_t state) {
   uint8_t layer = biton32(state);
   switch (layer) {
       case 3:
-        palSetPad(GPIOB, 9);
+        //palSetPad(GPIOB, 9);
         break;
       case 4:
-        palSetPad(GPIOB, 8);
+        //palSetPad(GPIOB, 8);
         break;
       case 6:
-        palSetPad(GPIOB, 9);
-        palSetPad(GPIOB, 8);
+        //palSetPad(GPIOB, 9);
+        //palSetPad(GPIOB, 8);
         break;
       default:
         break;
